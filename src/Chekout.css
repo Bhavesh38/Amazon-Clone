@@ -1,0 +1,21 @@
+.chekout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.chekout_list {
+  margin-top: -20%;
+  z-index: 1;
+}
+.chekout_ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.chekout_title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-left: 0;
+}

@@ -1,0 +1,36 @@
+.chekoutProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chekoutProduct_info {
+  padding-left: 20px;
+}
+
+.chekoutProduct_info > button {
+  cursor: pointer;
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.chekoutProduct_info > button:hover {
+  background-color: #e8ad16;
+}
+
+.chekoutProduct_image {
+  object-fit: contain;
+  width: 180px;
+  height: 180px;
+}
+
+.chekoutProduct_rating {
+  display: flex;
+}
+
+.chekoutProduct_title {
+  font-size: 17px;
+  font-weight: 800;
+}
